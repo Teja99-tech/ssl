@@ -31,7 +31,7 @@ st.set_page_config(
 )
 
 st.write(f'''
-    <a target="_self" href="https://eox.at">
+    <a target="_self" href="index.html">
         <button>
             Logout
         </button>
