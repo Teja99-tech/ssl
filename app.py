@@ -1,43 +1,15 @@
 import pandas as pd
 import numpy as np
 import numpy as np
-#import matplotlib
-#import matplotlib.pyplot as plt
-#import seaborn as sns
-#import sklearn
-
-# from sklearn.model_selection import train_test_split
-# from sklearn import metrics
-# from sklearn.ensemble import RandomForestRegressor
-
 import joblib
 import streamlit as st
-
-
 from streamlit import selectbox
-# from streamlit import number_input
-# import pickle
-
-# from st_aggrid import AgGrid
-# from pandas import option_context
-# from IPython.display import display,HTML
-
 import streamlit as st
 
 st.set_page_config(
    page_title="University Rankings",
    page_icon="school.png",
    layout="wide",
-)
-
-st.write(f'''
-    <a target="_self" href="index.html">
-        <button>
-            Logout
-        </button>
-    </a>
-    ''',
-    unsafe_allow_html=True
 )
 
 st.write('<span><h1 style="color:purple"><center>UNIVERSITY RANKING ANALYSIS</center></h1></span>',unsafe_allow_html=True)
