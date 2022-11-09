@@ -22,7 +22,13 @@ from streamlit import selectbox
 # from pandas import option_context
 # from IPython.display import display,HTML
 
-        
+import streamlit as st
+
+st.set_page_config(
+   page_title="University Rankings",
+   page_icon="univ.png",
+   layout="wide",
+)
 
 
 st.write('<span><h1 style="color:purple"><center>UNIVERSITY RANKING ANALYSIS</center></h1></span>',unsafe_allow_html=True)
