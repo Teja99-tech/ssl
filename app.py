@@ -26,10 +26,19 @@ import streamlit as st
 
 st.set_page_config(
    page_title="University Rankings",
-   page_icon="univ.png",
+   page_icon="school.png",
    layout="wide",
 )
 
+st.write(f'''
+    <a target="_self" href="https://eox.at">
+        <button>
+            Logout
+        </button>
+    </a>
+    ''',
+    unsafe_allow_html=True
+)
 
 st.write('<span><h1 style="color:purple"><center>UNIVERSITY RANKING ANALYSIS</center></h1></span>',unsafe_allow_html=True)
 
